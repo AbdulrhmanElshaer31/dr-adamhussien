@@ -22,9 +22,11 @@ import {
   ChevronUp,
 } from "lucide-react"
 
+import doctorAdamPhoto from "../assets/doctor-adam.jpg"
+
 // Unified High-End Clinical Dental Photography (Dr. Adam Hussein Studio Portrait)
-const doctorHeroPhoto = "/doctor-adam-clean.jpg"
-const doctorPortraitPhoto = "/doctor-adam-clean.jpg"
+const doctorHeroPhoto = doctorAdamPhoto
+const doctorPortraitPhoto = doctorAdamPhoto
 const clinicSuitePhoto =
   "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80"
 const equipmentPhoto =

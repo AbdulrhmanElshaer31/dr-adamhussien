@@ -31,6 +31,7 @@ import {
   Send,
   Sparkles,
 } from "lucide-react"
+import doctorAdamPhoto from "../assets/doctor-adam.jpg"
 
 // Sound chime synthesizer using Web Audio API
 const playChimeSound = () => {
@@ -369,7 +370,7 @@ export const ReceptionistDashboardPage: React.FC<{ go: (page: any) => void }> = 
               <div className="doctor-status-badge">
                 <div className="doctor-avatar-photo">
                   <img
-                    src="/doctor-adam-clean.jpg"
+                    src={doctorAdamPhoto}
                     alt={clinic.doctorName}
                   />
                   <span className="doctor-online-dot" />
