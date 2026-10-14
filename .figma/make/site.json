@@ -1,0 +1,11 @@
+{
+  "title": "adamhussien",
+  "description": "Streamline dental appointments with a user-friendly booking system, live queue tracking, and a receptionist dashboard for efficient patient management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
